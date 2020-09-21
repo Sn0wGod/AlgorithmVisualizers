@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.array-container {
+    position: relative;
+    bottom:0px;
+    /* margin-right: 320px; */
+}
+  
+.array-bar {
+    width: 20px;
+    display: inline-block; /* arranges the array bars in horizontal way*/
+    margin: 0 2px; /*Top,Bottom -> 0px Left,Right -> 1px*/
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.generate{
+    border: 2px solid rgb(184, 180, 180);
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white !important;
+    background: rgb(66, 63, 63) !important;
+    outline: 0 !important;
+}
+
+.buttons button {
+    border: 2px solid rgb(184, 180, 180);
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: white;
+    outline: 0 !important;
+}
+
+.algoo{
+    height: 490px !important;
+    width: 500px !important;
+    margin: 95px 100px;
+}
+/* .buttons button:not(:last-child) {
+    border-bottom: none; 
+} */
+  
+  /* Add a background color on hover */
+/* .buttons button:hover {
+    background-color: #3e8e41;
+} */
+
+@media (max-width: 480px){
+    .array-bar{
+        width: 5px;
+    }
+    .generate{
+        margin-right: 5px;
+        padding: 2px 5px;
+    }
+    .buttons button {
+        
+        margin-right: 5px;
+        padding: 2px 5px;
+        margin: 5px 5px;
+       
+    }
+    .algoo{
+        display: none;
+    }
+}
