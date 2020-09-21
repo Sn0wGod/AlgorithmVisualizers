@@ -7,8 +7,7 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
-  },
-  "homepage": "http://CSALS.github.io/Sorting-Visualizer",
+  }
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
